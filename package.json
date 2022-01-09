@@ -1,0 +1,23 @@
+{
+  "name": "danny",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hadus07/danny.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadus07/danny/issues"
+  },
+  "homepage": "https://github.com/hadus07/danny#readme",
+  "devDependencies": {
+    "chrome-launcher": "^0.15.0",
+    "lighthouse": "^9.2.0"
+  }
+}
