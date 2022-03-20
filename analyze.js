@@ -2,9 +2,9 @@ const fs = require('fs')
 const lighthouse = require('lighthouse')
 const chromeLauncher = require('chrome-launcher')
 
-const vue = require('./source/vue.json')
-const react = require('./source/react.json')
-const angular = require('./source/angular.json')
+const vue = require('./source/json/vue.json')
+const react = require('./source/json/react.json')
+const angular = require('./source/json/angular.json')
 
 async function analyze(url, frameworkName, environmentName) {
 	console.log(`Analyzing Project ${url}...`)
