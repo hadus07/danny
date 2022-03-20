@@ -19,7 +19,7 @@ async function analyze(url, frameworkName, environmentName) {
 
 	const _url = new URL(url)
 	const reportJSON = runnerResult.report
-	const name = _url.hostname.split('.')[0]
+	const name = _url.hostname.replace('www.', '').split('.')[0]
 	fs.writeFileSync(`${__dirname}/output/${environmentName}/${frameworkName}/${name}.json`, reportJSON)
 
 	await chrome.kill()
