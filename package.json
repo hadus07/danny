@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "analyze": "node analyze.js",
+    "convert": "node converter.js",
+    "start": "npm run convert && npm run analyze"
   },
   "repository": {
     "type": "git",
