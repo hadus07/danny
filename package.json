@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "analyze": "node analyze.js",
+    "analyze": "node analyzer.js",
     "convert": "node converter.js",
     "start": "npm run convert && npm run analyze"
   },
