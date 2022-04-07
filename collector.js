@@ -65,7 +65,7 @@ async function collect(p) {
 		await writeXlsxFile(objects, {
 			sheets,
 			schema: schemas,
-			filePath: path.join(__dirname, 'Metrics Digest.xlsx')
+			filePath: path.join(__dirname, 'Metrics Digest 2.xlsx')
 		})
 	} catch (err) {
 		console.log(err)
